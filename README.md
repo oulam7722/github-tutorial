@@ -5,10 +5,10 @@ _by Oula Mahfouz_
 ---
 ## Git vs. GitHub
 **Git:**
-* git takes a snapshot of your code 
+* git takes a snapshot of your code(git is used to save your code and any changes that you have done )
  
 **GutHub:**
-* github is where the code goes and stores its self in a cloud
+* github is where the code goes and stores its self in a cloud(Github is a hosting website where you can store your git commits)
 
 ---
 ## Initial Setup
@@ -46,12 +46,12 @@ To set up your SSH key:
 
 In your cloud9 work space you have to create a directory and a "first-repo":
 
-**make a new folder**
+**make a new folder**(i think title should be how to commit)
 * to init you type `git init`
 * to add you type `git add .`
 * to commit you type `git commit -m "put your message here" `
 
-**makeing your first repo** (do these steps)
+**making your first repo** (do these steps)(this should go before ^)
 * make sure your on your workspace
 * mkdir `repo name`
 * cd first-repo
