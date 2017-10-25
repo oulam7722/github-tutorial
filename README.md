@@ -5,16 +5,17 @@ _by Oula Mahfouz_
 ---
 ## Git vs. GitHub
 **Git:**
-* git takes a snapshot of your code(git is used to save your code and any changes that you have done )
+* git takes a snapshot of your code and it is used to save your code and any changes that you have done
  
 **GutHub:**
-* github is where the code goes and stores its self in a cloud(Github is a hosting website where you can store your git commits)
+* Github is a hosting website where you can store your git commits)
 
 ---
 ## Initial Setup
 
 **Making a github account:**
 
+press create an account
 You have to put in you email and make a password. Self explanitory and its your choice to what you choose to put.
 
 ---
@@ -46,12 +47,7 @@ To set up your SSH key:
 
 In your cloud9 work space you have to create a directory and a "first-repo":
 
-**make a new folder**(i think title should be how to commit)
-* to init you type `git init`
-* to add you type `git add .`
-* to commit you type `git commit -m "put your message here" `
-
-**making your first repo** (do these steps)(this should go before ^)
+**Making your first repo** (do these steps)
 * make sure your on your workspace
 * mkdir `repo name`
 * cd first-repo
@@ -63,6 +59,12 @@ In your cloud9 work space you have to create a directory and a "first-repo":
 * `git add .`
 * `git commit -m "message here"`
 * `git push`
+* 
+**How to commit**
+* to init you type `git init`
+* to add you type `git add .`
+* to commit you type `git commit -m "put your message here" `
+
 
 
 
@@ -76,7 +78,7 @@ In your cloud9 work space you have to create a directory and a "first-repo":
 4. git push
 ```
 
-1. `git status` to see which files are staged to be committed.
+1. `git status` to see which files are on the staged to be committed.
 2. `git add ` to add a file to the stage `git add .` is to add all your files to the stage
 3. `git commit -m "message here"`  takes a snapshot of the files on the stage. you use a quote and that quote is a message for your current commit which is there now
 4. `git push`  sends commits from you local repository to your remote repository
